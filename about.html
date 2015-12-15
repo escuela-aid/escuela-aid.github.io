@@ -39,6 +39,13 @@ th{
     text-align: center;
 }
 </style>
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+    popupWindow = window.open(
+        url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
 </head>
 
 <body>
@@ -107,7 +114,7 @@ th{
     </tr>
     <tr>
         <td>8:30</td>
-        <td rowspan="7" id="nm">C108</td>
+        <td rowspan="7" id="nm"><a href="JavaScript:newPopup('lab/C108.html');">C108</a></td>
         <td rowspan="7"id="nm">C310</td>
         <td rowspan="3" colspan="2" id="sm">C304 </td>
         <td rowspan="3" id="sm" >C305</td>
